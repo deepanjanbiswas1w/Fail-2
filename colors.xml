@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Cyberpunk Dark Theme Colors -->
+    
+    <!-- Primary Neon Green -->
+    <color name="neon_green">#00FF41</color>
+    <color name="neon_green_dim">#00CC33</color>
+    <color name="neon_green_dark">#009926</color>
+    
+    <!-- Accent Colors -->
+    <color name="neon_blue">#00D9FF</color>
+    <color name="neon_red">#FF0055</color>
+    <color name="neon_purple">#B700FF</color>
+    <color name="neon_yellow">#FFFF00</color>
+    
+    <!-- Dark Background -->
+    <color name="dark_background">#0A0E27</color>
+    <color name="card_background">#141B3D</color>
+    <color name="card_background_light">#1E2749</color>
+    
+    <!-- Text Colors -->
+    <color name="text_primary">#E0E0E0</color>
+    <color name="text_secondary">#A0A0A0</color>
+    <color name="text_tertiary">#707070</color>
+    
+    <!-- System Colors -->
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    
+    <!-- Material Design Defaults (for compatibility) -->
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+</resources>
