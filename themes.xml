@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Khotornak Cyberpunk Dark Theme -->
+    <style name="Theme.KhotornakFirewall" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color -->
+        <item name="colorPrimary">@color/neon_green</item>
+        <item name="colorPrimaryVariant">@color/neon_green_dark</item>
+        <item name="colorOnPrimary">@color/dark_background</item>
+        
+        <!-- Secondary brand color -->
+        <item name="colorSecondary">@color/neon_blue</item>
+        <item name="colorSecondaryVariant">@color/neon_purple</item>
+        <item name="colorOnSecondary">@color/dark_background</item>
+        
+        <!-- Error color -->
+        <item name="colorError">@color/neon_red</item>
+        <item name="colorOnError">@color/white</item>
+        
+        <!-- Background colors -->
+        <item name="android:colorBackground">@color/dark_background</item>
+        <item name="colorSurface">@color/card_background</item>
+        <item name="colorOnBackground">@color/text_primary</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+        
+        <!-- Status bar -->
+        <item name="android:statusBarColor">@color/dark_background</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">false</item>
+        
+        <!-- Navigation bar -->
+        <item name="android:navigationBarColor">@color/dark_background</item>
+        
+        <!-- Window background -->
+        <item name="android:windowBackground">@color/dark_background</item>
+        
+        <!-- Text appearance -->
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:textColorSecondary">@color/text_secondary</item>
+        
+        <!-- Switch styling -->
+        <item name="switchStyle">@style/Widget.Khotornak.Switch</item>
+        
+        <!-- Button styling -->
+        <item name="materialButtonStyle">@style/Widget.Khotornak.Button</item>
+    </style>
+    
+    <!-- Custom Switch Style -->
+    <style name="Widget.Khotornak.Switch" parent="Widget.MaterialComponents.CompoundButton.Switch">
+        <item name="thumbTint">@color/neon_green</item>
+        <item name="trackTint">@color/card_background_light</item>
+    </style>
+    
+    <!-- Custom Button Style -->
+    <style name="Widget.Khotornak.Button" parent="Widget.MaterialComponents.Button">
+        <item name="cornerRadius">12dp</item>
+        <item name="elevation">8dp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:letterSpacing">0.1</item>
+    </style>
+</resources>
